@@ -1,0 +1,159 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+a{
+    
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+input[type="Submit"],
+button[type="submit"] {
+    outline: none;
+}
+
+
+
+input[type="text"],
+input[type="url"],
+input[type="tel"],
+input[type="email"],
+input[type="textarea"] {
+    outline: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+}
+
+.header-top{
+    background-image: url(../img/background-img-1.jpg);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.brand-logo img {
+    height: 100px;
+    width: 150px;
+    border-radius: 15%;
+}
+
+.brand-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.brand-menu ul li {
+    position: relative;
+    display: inline-block;
+    border-bottom: 4px solid transparent;
+    border-radius: 2px;
+    transition: .5s;
+}
+
+.brand-menu ul li a {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 100px;
+    padding: 40px 50px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.brand-menu ul li:hover {
+    border-color: #18CFAB;
+    transition: 0.5s;
+}
+
+.brand-menu ul li a:hover {
+    color: #18CFAB;
+    transition: 0.5s;
+}
+
+.section-bg {
+    background-color: #1C2B33;
+}
+
+.section-padding {
+    padding: 40px 0;
+}
+
+.brand-intro {
+    margin-top: 75px;
+    color: #18CFAB;
+}
+
+.brand-intro h1 {
+    color: #18CFAB;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.brand-intro h3 {
+    color: #18CFAB;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.brand-intro p span {
+    color: wheat;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.brand-intro p {
+    padding: 10px 0;
+}
+.brand-img img {
+    border-radius: 20px;
+}
+
+.top-button a {
+    background:white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 6px 0;
+    transition: 0.5s;
+}
+
+.top-button a:hover {
+    background: #18CFAB;
+    color: white;
+    transition: 0.5s;
+}
